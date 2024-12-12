@@ -1,0 +1,112 @@
+/* Block: hero */
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('Images/hero-image.png');
+    background-size: cover;
+    border-radius: 20px;
+    padding: 3.125rem;
+    text-align: center;
+    color: var(--color-help-background);
+    position: relative;
+}
+
+.hero__title {
+    font-size: 2.5rem;
+    line-height: 1.2;
+    margin-bottom: 0.625rem;
+    z-index: 1;
+}
+
+.hero__description {
+    padding: 0 1.875rem;
+    margin-bottom: 2rem;
+    z-index: 1;
+}
+
+.hero__glass-background {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    padding: 2rem;
+    background: rgba(255, 255, 255, 0.0);
+    border-radius: 15px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    z-index: 0;
+}
+
+.hero__get-started {
+    display: inline-block;
+    background-color: var(--color-primary);
+    color: var(--color-background);
+    padding: 0.75rem 1.875rem;
+    border-radius: var(--border-radius);
+    text-align: center;
+    text-decoration: none;
+    font-family: var(--font-family-main);
+    font-size: 1rem;
+    border: 1px solid var(--color-text-dark);
+    cursor: pointer;
+    position: relative;
+    z-index: 2;
+}
+
+.hero__get-started:hover,
+.hero__get-started--selected {
+    background-color: var(--color-background);
+    color: var(--color-primary);
+}
+
+/* Media Queries */
+@media (max-width: 1150px) {
+    .hero {
+        height: 400px;
+    }
+    .hero__title {
+        font-size: 2.2rem;
+    }
+    .hero__get-started {
+        padding: 0.7rem 1.7rem;
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 960px) {
+    .hero {
+        height: 377px;
+    }
+    .hero__title {
+        font-size: 2rem;
+    }
+    .hero__get-started {
+        padding: 0.5rem 1.5rem;
+        font-size: 0.7rem;
+    }
+}
+
+@media (max-width: 650px) {
+    .hero {
+        height: 355px;
+    }
+    .hero__title {
+        font-size: 1.5rem;
+        line-height: 1.1;
+    }
+    .hero__description {
+        padding: 0 1rem;
+        margin-bottom: 1rem;
+        font-size: 0.8rem;
+    }
+    .hero__get-started {
+        padding: 0.3rem 1rem;
+        font-size: 0.6rem;
+    }
+}

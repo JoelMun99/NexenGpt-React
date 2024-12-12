@@ -1,0 +1,130 @@
+/* Navbar Block */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 0;
+    background: var(--color-background);
+    position: relative;
+    z-index: 1000;
+}
+
+/* Navbar Logo */
+.navbar__logo img {
+    width: auto;
+}
+
+/* Navbar Navigation */
+.navbar__nav {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.navbar__link,
+.navbar__button {
+    text-decoration: none;
+    background: none;
+    border: none;
+    color: var(--color-text-dark);
+    font-family: var(--font-family-main);
+    cursor: pointer;
+}
+
+.navbar__link:hover,
+.navbar__link--selected {
+    color: var(--color-primary);
+}
+
+/* Navbar Buttons */
+.navbar__button {
+    padding: 0.75rem 1.875rem;
+    font-family: var(--font-family-main);
+    font-weight: bold;
+    border-radius: 5px;
+    border: 1px solid var(--color-text-dark);
+    transition: background-color 0.3s ease;
+    background-color: var(--color-primary);
+    color: var(--color-help-background);
+    cursor: pointer;
+}
+
+.navbar__button:hover {
+    background-color: var(--color-background);
+    color: var(--color-primary);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Menu Button */
+.navbar__menu-btn {
+    display: none;
+    font-size: 2rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: var(--color-primary);
+}
+
+/* Overlay */
+.navbar__overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    z-index: 999;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.navbar__close-btn {
+    position: absolute;
+    top: 1rem;
+    right: 2rem;
+    font-size: 2rem;
+    color: white;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+/* Overlay Links */
+.navbar__overlay-links {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    text-align: center;
+}
+
+.navbar__overlay-link {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: var(--color-help-background);
+}
+
+/* Responsive Styles */
+@media (max-width: 960px) {
+    .navbar__nav {
+        display: none;
+    }
+
+    .navbar__logo img {
+        width: 150px;
+    }
+
+    .navbar__menu-btn {
+        display: block;
+    }
+
+    .navbar__overlay {
+        display: none;
+    }
+    
+    .navbar__overlay--open {
+        display: flex;
+    }
+}

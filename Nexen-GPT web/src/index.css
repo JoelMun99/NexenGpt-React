@@ -1,0 +1,30 @@
+@import url(https://fonts.googleapis.com/css2?family=Andika:ital,wght@0,400;0,700;1,400;1,700&display=swap);
+:root {
+  /* Color Variables */
+  --color-background: #EEF3F8;
+  --color-border: #ccc;
+  --color-text-dark: #000;
+  --color-primary: #13202D;
+  --color-secondary: #f9f9f9;
+  --color-help-background: #fff;
+  --color-footer-bg: #333;
+
+  /* Font and Spacing Variables */
+  --font-family-main: 'Andika', sans-serif;
+  --font-size-base: 16px; 
+  --padding-base: 1rem;
+  --border-radius: 0.3125rem; 
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+body {
+  font-family: var(--font-family-main);
+  font-size: var(--font-size-base);
+  margin: 0;
+}
+

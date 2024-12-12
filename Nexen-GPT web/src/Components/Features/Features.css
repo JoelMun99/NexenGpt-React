@@ -1,0 +1,88 @@
+/* Block: Features */
+.features {
+    text-align: center;
+    padding: 3.125rem 1.25rem;
+    background-color: var(--color-background);
+}
+
+.features__heading {
+    font-size: 2rem; 
+    margin-bottom: 1.25rem; 
+}
+
+/* Element: Feature Cards Container */
+.features__cards {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 2rem 0;
+}
+
+/* Element: Individual Card */
+.features__card {
+    background-color: var(--color-help-background);
+    padding: 3.25rem;
+    border: 1px solid var(--color-primary);
+    border-radius: 1.625rem;
+    width: 100%;
+    max-width: 390px;
+    text-align: center;
+    transition: transform 0.3s ease;
+    flex: 1 1 300px;
+}
+
+.features__card:hover {
+    transform: scale(1.1);
+}
+
+/* Element: Card Heading */
+.features__card-title {
+    font-size: 1.5rem;
+    line-height: 1.2;
+    font-weight: bold;
+    margin-bottom: 0.2em;
+    color: var(--color-primary);
+}
+
+/* Element: Card Description */
+.features__card-description {
+    font-size: 1rem;
+    color: var(--color-primary);
+    margin-bottom: 0.3em;
+}
+
+/* Element: Card Image */
+.features__card-icon {
+    margin-bottom: 20px;
+}
+
+/* Element: Card List */
+.features__card-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.features__card-list-item {
+    list-style-type: none;
+    font-size: 0.9rem;
+    color: var(--color-primary);
+    position: relative;
+}
+
+.features__card-list-item::before {
+    content: '•';
+    color: var(--color-primary);
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-right: 5px;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 650px) {
+    .features__heading {
+        font-size: 1.5rem;
+        line-height: 1.1;
+    }
+}
