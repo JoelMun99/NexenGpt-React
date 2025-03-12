@@ -5,7 +5,7 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-image: url('Images/hero-image.png');
+    background-image: url('/Images/hero-image.png');
     background-size: cover;
     border-radius: 20px;
     padding: 3.125rem;
