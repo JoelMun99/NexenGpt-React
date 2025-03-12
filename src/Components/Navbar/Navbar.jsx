@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import NexenLogo from '../../assets/NexenIcons/Nexenlogo.svg';
+import NexenLogo from '../../assets/NexenIcons/NexenLogo.svg';
 import MenuBtn from '../../assets/NexenIcons/Menubtn.svg';
 import CloseBtn from '../../assets/NexenIcons/Closebtn.svg';
 
