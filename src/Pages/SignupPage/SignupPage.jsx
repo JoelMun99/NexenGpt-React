@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 import logo from "../../assets/NexenIcons/NexenGPT.svg";
 import GoogleIcon from "../../assets/NexenIcons/googleicon.svg";
-import MicrosoftIcon from "../../assets/NexenIcons/microsoftIcon.svg";
+import MicrosoftIcon from "../../assets/NexenIcons/microsofticon.svg";
 import AppleIcon from "../../assets/NexenIcons/apple.svg";
 
 import "./SignupPage.css";
