@@ -4,7 +4,7 @@ import facebook  from '../../assets/NexenIcons/facebook.svg';
 import twitter  from '../../assets/NexenIcons/twitter.svg'
 import instagram  from '../../assets/NexenIcons/Instagram.svg';
 import youtube  from '../../assets/NexenIcons/Youtube.svg';
-import Linkedin  from '../../assets/NexenIcons/Linkedin.svg';
+import Linkedin  from '../../assets/NexenIcons/LinkedIn.svg';
 import Tiktok  from '../../assets/NexenIcons/Tiktok.svg';
 
 import './Footer.css';
