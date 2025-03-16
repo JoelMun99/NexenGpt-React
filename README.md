@@ -15,9 +15,8 @@ This project enhances the NexenGPT landing page by leveraging React’s componen
 
 ## 📖 What I Learned  
 - Transitioning from static HTML/CSS to **React.js**.  
-- Breaking down UI elements into **reusable components**.  
-- Improved **state management and optimization**.  
-
+- Breaking down UI elements into **reusable components**.
+  
 ## 🛠 Technologies Used  
 - **Frontend:** React.js, CSS  
 
