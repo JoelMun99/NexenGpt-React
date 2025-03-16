@@ -1,6 +1,6 @@
 ---
 
-### **4️⃣ NexenGPT React (Landing Page - React Version)**
+### **NexenGPT React (Landing Page - React Version)**
 
 # NexenGPT React ⚡  
 A React-based landing page for NexenGPT, offering a more modular and scalable version of the original HTML/CSS version.
