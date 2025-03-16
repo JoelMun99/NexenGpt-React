@@ -24,7 +24,13 @@ This project enhances the NexenGPT landing page by leveraging React’s componen
 ## 🚀 Future Improvements  
 🔹 Implement **dynamic content fetching** for real-time updates.  
 🔹 Improve animations and transitions.  
-🔹 Optimize **performance for faster loading**.  
+🔹 Optimize **performance for faster loading**. 
+
+## 📸 Preview
+Here’s how the NexenGPT landing page looks:
+
+
+![NexenGPT Landing Page]("https://github.com/user-attachments/assets/c6be47d7-b05f-4b73-bd8d-de7a0525dfe0")
 
 ## 📥 Installation & Setup  
 1. Clone the repository:  
