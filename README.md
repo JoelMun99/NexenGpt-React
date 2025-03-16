@@ -28,5 +28,5 @@ This project enhances the NexenGPT landing page by leveraging React’s componen
 ## 📥 Installation & Setup  
 1. Clone the repository:  
    ```bash
-   git clone https://github.com/joelmun99/nexengpt-react.git
-   cd nexengpt-react
+   git clone https://github.com/JoelMun99/NexenGPT-React.git
+   cd NexenGPT-React
